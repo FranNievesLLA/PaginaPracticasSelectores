@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  paddin: 0;
+}
+
+@font-face {
+  font-family: History;
+  src: url("/font/AgainstHistory.ttf");
+}
+
+body {  
+  font-family: "Gill Sans", sans-serif;
+}
+
+header {
+  background: #f386e5;
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+  position: relativa;
+}
+
+
+nav {
+  text-align: right;
+  padding: 30px 50px 0 0;
+  list-style: none;
+}
+
+nav > a{
+  display: block;
+  float: right;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;  
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+
+.text-header h1{
+    font-size: 50px;
+    color: white;
+}
+
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #c9c9c9;
+    font-family: History;
+}
+
+header .text-header{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 30px 0 30px;
+}
+
+
+
